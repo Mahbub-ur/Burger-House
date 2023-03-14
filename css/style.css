@@ -11,6 +11,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Header Section */
 header{
     background-image: url(../images/bg.png);
     background-position: center;
@@ -130,6 +131,7 @@ header .right .price .content h3{
     letter-spacing: 10px;
     text-align: end;
 }
+/* Popular Section */
 .popular_burger{
     padding: 40px 0;
 }
@@ -186,6 +188,7 @@ header .right .price .content h3{
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+/* Tasty Burger Section */
 .tasty_burger{
     padding: 40px 0;
     text-align: center;
@@ -278,6 +281,7 @@ header .right .price .content h3{
 .tasty_burger .content a:hover{
     background-color: #ba1414;
 }
+/* Discover Section */
 .discover{
     margin: 40px 0;
 }
@@ -336,6 +340,7 @@ header .right .price .content h3{
 .owl-dots .owl-dot:hover span{
     background-color: var(--color_1);
 }
+/* Reservation Section */
 .reservation{
     padding: 30px 0;
     text-align: center;
@@ -427,8 +432,10 @@ header .right .price .content h3{
     right: 0;
     width: auto;
 }
+/* Footer Section */
 footer{
-    margin-top: 120px;
+    margin-top: 160px;
+    margin-bottom: 40px;
 }
 footer .bg{
     background-image: url(../images/bg_2.png);
@@ -458,9 +465,16 @@ footer .content{
     margin-bottom: 15px;
 }
 footer .content i{
-    min-width: 40px;
+    min-width: 50px;
     font-size: 20px;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all ease-in-out;
+}
+footer .content .i_2:hover{
+    color: #ffc045;
 }
 footer .content p{
     margin: 0;
@@ -472,7 +486,7 @@ footer .content p{
     transition: 0.3s all ease-in-out;
 }
 footer .content p:nth-child(2):hover{
-    color: #dcdcdc;
+    color: #ffc045;
 }
 footer .footer{
     display: flex;
