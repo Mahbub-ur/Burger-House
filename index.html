@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
     <header> <!-- Header Section -->
@@ -27,7 +28,7 @@
             <div class="row">
                 <nav class="navbar header">
                     <div class="container-fluid">
-                        <a class="navbar-brand"><img src="images/logo.png" class="img-fluid logo" alt=""></a>
+                        <a class="navbar-brand logo"><img src="images/logo.png" class="img-fluid" alt=""></a>
                         <div class="contact">
                             <img src="images/icon_1.png" class="img-fluid" alt="">
                             <p>Express Delivery +1 234 567 890</p>
@@ -39,7 +40,7 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <i class="fa-solid fa-bars" onclick="changeIcon(this)"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -62,7 +63,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="left mt-5 pt-5">
+                    <div class="left">
                         <h4>It is a good time for the great taste of burgers</h4>
                         <h1>Burger</h1>
                         <h2>Week</h2>
@@ -123,7 +124,7 @@
             <div class="row">
                 <h3>Always Tasty Burger</h3>
                 <h1>Choose & Enjoy</h1>
-                <div class="col-md-10 m-auto mb-5">
+                <div class="col-md-10 m-auto">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                 </div>
             </div>
@@ -140,7 +141,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="content">
-                        <div class="img_bx" style="width: 90%; margin: 5px auto;">
+                        <div class="img_bx" style="transform: scale(0.9); height: calc(40vh + (78 - 40) * (100vh - 320px) / (575 - 320)); margin: 5px auto;">
                             <img src="images/burger_5.png" class="img-fluid" alt="">
                         </div>
                         <h3>Lorem ipsum dolor</h3>
@@ -279,6 +280,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
