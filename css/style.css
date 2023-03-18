@@ -4,16 +4,16 @@
     --bebas: 'Bebas Neue', 'cursive';
     --color_1: #3d2514;
     --color_2: #3d3d3d;
-    --size-12: calc(10px + (12 - 10) * (100vw -320px) / (1140 -320));
-    --size-16: calc(12px + (16 - 12) * (100vw -320px) / (1140 -320));
-    --size-20: calc(16px + (20 - 16) * (100vw -320px) / (1140 -320));
-    --size-24: calc(20px + (24 - 20) * (100vw -320px) / (1140 -320));
-    --size-32: calc(28px + (32 - 28) * (100vw -320px) / (1140 -320));
-    --size-36: calc(32px + (36 - 32) * (100vw -320px) / (1140 -320));
-    --size-40: calc(20px + (40 - 20) * (100vw -320px) / (1140 -320));
-    --size-44: calc(24px + (44 - 24) * (100vw -320px) / (1140 -320));
-    --size-85: calc(54px + (85 - 54) * (100vw -320px) / (1140 -320));
-    --size-54: calc(50px + (54 - 50) * (100vw -320px) / (1140 -320));
+    --size-12: calc(8px + (12 - 8) * (100vw - 320px) / (1140 - 320));
+    --size-16: calc(12px + (16 - 12) * (100vw - 320px) / (1140 - 320));
+    --size-20: calc(16px + (20 - 16) * (100vw - 320px) / (1140 - 320));
+    --size-24: calc(20px + (24 - 20) * (100vw - 320px) / (1140 - 320));
+    --size-32: calc(28px + (32 - 28) * (100vw - 320px) / (1140 - 320));
+    --size-36: calc(32px + (36 - 32) * (100vw - 320px) / (1140 - 320));
+    --size-40: calc(20px + (40 - 20) * (100vw - 320px) / (1140 - 320));
+    --size-44: calc(24px + (44 - 24) * (100vw - 320px) / (1140 - 320));
+    --size-85: calc(54px + (85 - 54) * (100vw - 320px) / (1140 - 320));
+    --size-54: calc(50px + (54 - 50) * (100vw - 320px) / (1140 - 320));
 }
 
 *{
@@ -48,11 +48,9 @@ header .contact p{
     color: var(--color_1);
     margin: 0;
 }
-.navbar-toggler{
-    transition: 0.3s all ease-in-out;
-}
 .navbar-toggler:focus{
     box-shadow: none;
+    border: 1px solid var(--color_1);
 }
 header button i{
     font-size: 24px;
@@ -246,7 +244,7 @@ header .right .price .content h3{
 }
 .tasty_burger .content{
     text-align: center;
-    margin-right: var(--size-20);
+    margin-right: 20px;
 }
 .tasty_burger .content .img_bx{
     width: 100%;
@@ -287,6 +285,10 @@ header .right .price .content h3{
         right: 0%;
         opacity: 0.9;
     }
+}
+.img_custom{
+    width: 90% !important;
+    margin: 5px auto;
 }
 .tasty_burger .content h3{
     background: none;
