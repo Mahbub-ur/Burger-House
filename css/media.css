@@ -1,3 +1,214 @@
+@media (max-width: 1440px) {
+    header .right .price{
+        bottom: 140px;
+    }
+    .popular_burger .right .img_bx .content h1{
+        line-height: 48px;
+    }
+    .tasty_burger .content .img_bx{
+        min-height: 360px;
+    }
+    .tasty_burger .content .img_bx.img_custom{
+        min-height: 355px;
+    }
+    .discover .content .left p{
+        line-height: 40px;
+    }
+    .reservation .img_bx_1{
+        top: 56%;
+        left: -1%;
+    }
+    .reservation .img_bx_3{
+        top: 67%;
+    }
+    footer p{
+        margin-top: 40px;
+        line-height: 32px;
+    }
+    footer .bg .cc{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1024px) {
+    header .right .price{
+        bottom: 15%;
+        left: 25%;
+    }
+    .popular_burger .right .img_bx .content h1{
+        line-height: 44px;
+    }
+    .tasty_burger .content .img_bx{
+        min-height: 270px;
+    }
+    .tasty_burger .content .img_bx.img_custom{
+        min-height: 265px;
+    }
+    .reservation .img_bx_1,
+    .reservation .img_bx_2,
+    .reservation .img_bx_3{
+        width: 25vw;
+    }
+    .reservation .img_bx_1{
+        top: 60%;
+        left: -3%;
+    }
+    .reservation .img_bx_2{
+        top: -25%;
+    }
+    .reservation .img_bx_3{
+        top: 78%;
+    }
+    footer .logo_2{
+        width: 30%;
+    }
+    footer p{
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-link{
+        text-align: center;
+    }
+    header .right .img_bx{
+        top: -5%;
+    }
+    header .right .price{
+        top: 50%;
+        left: 15%;
+        transform: scale(0.9);
+    }
+    header .right .price .content{
+        top: 10%;
+        left: 14%;
+    }
+    .popular_burger .right .img_bx .content{
+        left: 15px;
+    }
+    .popular_burger .right .img_bx .content h1{
+        line-height: 34px;
+    }
+    .tasty_burger .content .img_bx{
+        min-height: calc(190px + (200 - 190) * (100vw - 768px) / (991 - 768));
+    }
+    .tasty_burger .content .img_bx.img_custom{
+        min-height: calc(185px + (195 - 185) * (100vw - 768px) / (991 - 768)) !important;
+    }    
+    .discover .content .left{
+        padding: 0 0 10px 0;
+    }
+    .discover .content .left h3{
+        margin-bottom: 5px;
+    }
+    .discover .content .left h1{
+        margin-bottom: 5px;
+    }
+    .discover .content .left p{
+        line-height: 22px;
+    }
+    .owl-dots{
+        left: -1%;
+        bottom: -5%;
+    }
+    .reservation .img_bx_1{
+        top: 50%;
+        left: -2%;
+    }
+    .reservation .img_bx_2{
+        top: -25%;
+    }
+    .reservation .img_bx_3{
+        top: 60%;
+    }
+    footer .logo_2{
+        width: 40vw;
+    }
+    footer a{
+        text-align: center;
+    }
+    footer p{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 767px) {
+    header .tc{
+        text-align: center;
+        margin: auto;
+    }
+    header .right .img_bx{
+        top: -1%;
+        left: -20%;
+    }
+    header .right .price{
+        bottom: 7%;
+        left: 14%;
+        transform: scale(0.9);
+    }
+    header .right .price .content{
+        left: 0%;
+    }
+    .popular_burger{
+        padding-bottom: 0;
+    }
+    .popular_burger .left .img_bx,
+    .popular_burger .right .img_bx{
+        margin-bottom: 10px;
+    }
+    .tasty_burger .content{
+        margin-bottom: 1.5rem;
+    }
+    .tasty_burger .content .img_bx{
+        width: 55vw !important;
+        min-height: calc(270px + (340 - 190) * (100vw - 320px) / (767 - 320));
+        display: inline-block;
+    }
+    .tasty_burger .content .img_bx.img_custom{
+        width: 55vw !important;
+        min-height: calc(270px + (380 - 190) * (100vw - 320px) / (767 - 320)) !important;
+    }
+    .tasty_burger{
+        padding-bottom: 0;
+    }
+    .discover .content .left{
+        padding-bottom: 20px;
+    }
+    .discover .content .left h3{
+        margin-bottom: 10px;
+    }
+    .discover .content .left h1{
+        margin-bottom: 10px;
+    }
+    .discover .content .left p{
+        line-height: 26px;
+    }
+    .owl-dots{
+        left: 50%;
+        bottom: 3%;
+        transform: translateX(-50%);
+    }
+    .reservation .img_bx_2{
+        top: -20%;
+    }
+    .reservation .img_bx_1{
+        top: calc(85% + (70 - 78) * (100vw - 320px) / (767 - 320));
+        left: -3%;
+    }
+    .reservation .img_bx_3{
+        top: 83%;
+    }
+    footer .bg{
+        padding: 20px;
+        text-align: center;
+    }
+    footer .bg .cc{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .content{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 575px) and (min-width: 320px) {
     .nav-link{
         text-align: center;
@@ -23,15 +234,11 @@
     header .h_img{
         width: 8vw;
     }
-    .popular_burger .left .img_bx,
-    .popular_burger .right .img_bx{
-        margin-bottom: 10px;
-    }
-    .popular_burger .right .img_bx .content{
-        left: 15px;
-    }
     .tasty_burger p{
         margin-bottom: 1rem;
+    }
+    .popular_burger .right .img_bx .content h1{
+        line-height: 34px;
     }
     .tasty_burger .content .img_bx{
         width: 75vw !important;
@@ -46,26 +253,24 @@
         margin: auto;
         margin-top: 5vh;
     }
-    .reservation .img_bx_1,
-    .reservation .img_bx_2,
-    .reservation .img_bx_3{
-        width: 30vh;
+    .reservation .content form{
+        flex-direction: column;
     }
     .reservation .img_bx_1{
-        top: 88%;
-        left: 5%;
+        top: 85%;
+        left: -2%;
+    }
+    .reservation .img_bx_2{
+        top: -15%;
     }
     .reservation .img_bx_3{
         top: 85%;
     }
-    footer .bg{
-        padding: 20px;
-    }
-    footer a{
-        text-align: center;
-    }
-    footer .logo_2{
-        width: 70vw;
+    footer .bg .cc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
     footer .content i{
         min-width: 30px;

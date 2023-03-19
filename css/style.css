@@ -4,16 +4,16 @@
     --bebas: 'Bebas Neue', 'cursive';
     --color_1: #3d2514;
     --color_2: #3d3d3d;
-    --size-12: calc(8px + (12 - 8) * (100vw - 320px) / (1140 - 320));
-    --size-16: calc(12px + (16 - 12) * (100vw - 320px) / (1140 - 320));
-    --size-20: calc(16px + (20 - 16) * (100vw - 320px) / (1140 - 320));
-    --size-24: calc(20px + (24 - 20) * (100vw - 320px) / (1140 - 320));
-    --size-32: calc(28px + (32 - 28) * (100vw - 320px) / (1140 - 320));
-    --size-36: calc(32px + (36 - 32) * (100vw - 320px) / (1140 - 320));
-    --size-40: calc(20px + (40 - 20) * (100vw - 320px) / (1140 - 320));
-    --size-44: calc(24px + (44 - 24) * (100vw - 320px) / (1140 - 320));
-    --size-85: calc(54px + (85 - 54) * (100vw - 320px) / (1140 - 320));
-    --size-54: calc(50px + (54 - 50) * (100vw - 320px) / (1140 - 320));
+    --size-12: calc(8px + (16 - 8) * (100vw - 320px) / (1440 - 320));
+    --size-16: calc(12px + (20 - 12) * (100vw - 320px) / (1440 - 320));
+    --size-20: calc(16px + (24 - 16) * (100vw - 320px) / (1440 - 320));
+    --size-24: calc(18px + (28 - 18) * (100vw - 320px) / (1440 - 320));
+    --size-32: calc(28px + (36 - 28) * (100vw - 320px) / (1440 - 320));
+    --size-36: calc(20px + (40 - 32) * (100vw - 320px) / (1440 - 320));
+    --size-40: calc(20px + (44 - 20) * (100vw - 320px) / (1440 - 320));
+    --size-44: calc(24px + (48 - 24) * (100vw - 320px) / (1440 - 320));
+    --size-85: calc(54px + (90 - 54) * (100vw - 320px) / (1440 - 320));
+    --size-54: calc(50px + (58 - 50) * (100vw - 320px) / (1440 - 320));
 }
 
 *{
@@ -27,6 +27,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 header .header{
     padding-top: 20px;
@@ -209,6 +210,7 @@ header .right .price .content h3{
     color: #FFFFFF;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    line-height: 34px;
 }
 /* Tasty Burger Section */
 .tasty_burger{
@@ -240,7 +242,7 @@ header .right .price .content h3{
     color: var(--color_1);
     letter-spacing: 0.5px;
     line-height: 24px;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .tasty_burger .content{
     text-align: center;
@@ -490,6 +492,7 @@ footer .content{
     justify-content: stretch;
     align-items: center;
     margin-bottom: 15px;
+    margin-left: 5vw;
 }
 footer .content i{
     min-width: 50px;
@@ -527,6 +530,7 @@ footer .footer p{
     font-size: var(--size-16);
     color: #FFFFFF;
     letter-spacing: 0.5px;
+    margin: 0;
 }
 footer .footer .icon_bx{
     display: flex;
