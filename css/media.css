@@ -42,6 +42,22 @@
     }
     .tasty_burger .content .img_bx.img_custom{
         min-height: 265px;
+    }    
+    .discover .content .left{
+        padding: 0 0 10px 0;
+    }
+    .discover .content .left h3{
+        margin-bottom: 10px;
+    }
+    .discover .content .left h1{
+        margin-bottom: 15px;
+    }
+    .discover .content .left p{
+        line-height: 36px;
+    }
+    .owl-dots{
+        left: 0%;
+        bottom: -5%;
     }
     .reservation .img_bx_1,
     .reservation .img_bx_2,
